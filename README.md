@@ -11,7 +11,9 @@ system responds with a multimedia message consisting of a language instruction c
 
 ANNA can be pre-programmed and thus can function without human operation. However, by using natural forms of communication, the system can easily incorporate humans when they are willing to participate. Beside its practical purpose of reducing human assistance effort, ANNA provides a testbed for research on interactive grounded visionlanguage learning. Modeling multi-round natural interaction in photorealistic simulators remains a challenge, as interactions must adapt to the agent’s diverse situations and locations. A naive approach that crowd-sources an interaction for every location and situation does not scale to large environments.
 Previous work on grounded vision-language learning via navigation tasks either follows a “one-timeinstruction-following” setup (Anderson et al., 2018; Bisk et al., 2016, 2017; Misra et al., 2014; Chen et al., 2018; Blukis et al., 2018), where the agent is given a natural language instruction only at the beginning and is not able to seek for additional help later, or model interaction with artificial languages.
-ANNA, on the other hand, can effectively simulate multi-round interaction and can scale to large environments because we do not need to connect all locations but only major landmarks in the environment. Datasets for setting up ANNA in several photorealistic simulated environments are readily available in forms of one-time-instruction-following datasets.
+ANNA, on the other hand, can effectively simulate multi-round interaction and can scale to large environments because we do not need to connect all locations but only major landmarks in the environment. 
+
+Datasets for setting up ANNA in several photorealistic simulated environments are readily available in forms of one-time-instruction-following datasets.
 (Anderson et al., 2018) to construct ANNA for object-finding tasks in the Matterport3D simulator
 without any extra annotation effort. Using imitation learning, we train an agent to learn to request help
 from ANNA and execute the multimedia subtasks to find objects in photorealistic environments.
