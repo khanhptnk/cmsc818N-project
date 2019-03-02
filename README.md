@@ -30,6 +30,9 @@ for successful execution of written instructions. Das et al. (2018b) propose a h
 ### Timeline:
 
 March 15: finished implementation of baseline algorithms.
+
 April 1: first set of experiments.
+
 Apri 20: finished implementation of final algorthms.
-May 30: final set of experiments.
+
+May 5: final set of experiments.
