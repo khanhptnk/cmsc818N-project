@@ -26,3 +26,10 @@ et al., 2014) Most relevant to the present work are Misra et al. (2014) who grou
 similarly use reinforcement learning in simulated 3D environments for successful execution of written instructions. Simulators that are more photorealistic, realistic-physics enabled simulators are beginning to be utilized to train real-world embodied agents (Kempka et al., 2016; Dosovitskiy et al., 2017; Shah et al., 2018). The Matterport3D dataset (Chang et al., 2017) comprising photo-realistic indoor models of 90 real homes underpins the Matterport3DSimulator and its associated RoomToRoom dataset (Anderson et al., 2018). We use this simulator and the RoomToRoom dataset in our experiments. This dataset is also used by Wang et al. (2018) to study the combination of model-based and model-free reinforcement learning for navigation from language. End-to-end learning in rich simulators: (Das
 et al., 2018a) present the “Embodied Question Answering” (EmbodiedQA) task where an agent is put in a 3D environment and asked to answer questions like “What color is the car?”. They develop end-toend-trained agents trained via reinforcement learning and propose evaluation protocols. Hermann et al. (2017) and Wu et al. (2018) similarly use reinforcement learning in simulated 3D environments
 for successful execution of written instructions. Das et al. (2018b) propose a hierarchical architecture where each level of the hierarchy is independently warmed up with imitation learning and further improved with reinforcement learning.
+
+### Timeline:
+
+March 15: finished implementation of baseline algorithms.
+April 1: first set of experiments.
+Apri 20: finished implementation of final algorthms.
+May 30: final set of experiments.
