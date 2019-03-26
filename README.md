@@ -40,3 +40,20 @@ Apri 20: finish implementation of final algorthms.
 May 5: final set of experiments.
 
 May 10: collect results and write report. 
+
+### Response to comments:
+
+*How much background work have you done in this area?*
+- I had a [CVPR 2019](https://arxiv.org/pdf/1812.04155.pdf) paper on this area. A [demo video](https://www.youtube.com/watch?v=Vp6C29qTKQ0&feature=youtu.be) is also available.
+
+*How will you demonstrate your results? Please provide the details of your experiments?*
+- We will try to answer these questions:
+1. Does the natural assistance help with accomplishing tasks? (assistance vs. no asssitance)
+2. How effective is verbal/visual assistance? (ablation study on type of assistance). 
+3. What is the best help-requesting strategy? (comparison between our learned strategy and several baselines such as randomly ask, ask every k steps).
+
+Experiments will be conducted on the [Matterport3D simulator](https://github.com/peteanderson80/Matterport3DSimulator)
+
+For more details about the setup, please read [this document](https://drive.google.com/file/d/19Q0OBZBFeNv7t1Sl8ZCg6sdLDIbYrLLp/view?usp=sharing)
+
+
